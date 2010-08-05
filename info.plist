@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>ANSYS</string>
+	<key>ordering</key>
+	<array>
+		<string>013531CF-0451-41E4-A570-A9D92793A826</string>
+	</array>
+	<key>uuid</key>
+	<string>94823924-1183-4061-98D1-4300C0C11960</string>
+</dict>
+</plist>
