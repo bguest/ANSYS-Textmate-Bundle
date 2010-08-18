@@ -1,5 +1,16 @@
 Story
 
-Ok, Imagine for a second that you are an mechanical engineer plagued with the horror of being forced to use Windows XP day after day. Why do you have to use Windows XP?!?!?! Simple, because the only software that you can use to get your job done is ANSYS and it seems to run best on Windows. Now imagine that you don't want to be chained to your desk 8 hours a day 7 days a week. Simple right, install ANSYS on your laptop and you're good to go... Well not really, being the highly evolved person that you are, you bought at Mac. Thankfully there is a solution, Paralles, yeah, probably not ideal for number crunching, but it gets the job done.
+Ok, Imagine for a second that you are an mechanical engineer plagued with the horror of
+being forced to use Windows XP day after day. Why do you have to use Windows XP?!?!?! 
+Simple, because the only software that you can use to get your job done is ANSYS and it
+seems to run best on Windows. Now imagine that you don't want to be chained to your
+desk 8 hours a day 5 days a week. Simple right, install ANSYS on your laptop and you're
+good to go... Well not really, being the highly evolved person that you are, you bought
+at Mac. Thankfully there is a solution, Paralles, yeah, probably not ideal for number
+crunching, but it gets the job done.
 
-Now that you are all set up using ANSYS on your mac, life is good, but there is just one problem, what text editor do you use? You could use your old windows text editor with parallels as well... Or you could use Textmate, the software that is partially responsible for your love of macs and hatred of windows. Unfortunately there is no nifty bundle. Fortunately I created one.
+Now that you are all set up using ANSYS on your mac, life is good, but there is just
+one problem, what text editor do you use? You could use your old windows text editor
+with parallels as well... Or you could use Textmate, the software that is partially
+responsible for your love of macs and hatred of windows. Unfortunately there is nonifty
+bundle. Fortunately I created one.
