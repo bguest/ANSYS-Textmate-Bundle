@@ -1,3 +1,15 @@
+EDIT: You can use E Text Editor on windows along with the ANSYS-Textmate-Bundle.
+
+Note: in order to get proper syntax highlihgting you will probably want to add colors 
+for the following scopes:
+
+keyword.star.apdl (*commands)
+keyword.command.apdl (regular ansys commands)
+keyword.argument.apdl (stuff like 'all','s','volu')
+keyword.macro.apdl (My local ansys macros); 
+
+    Note:you will also have to edit the bundel to get your macros to be highlighted
+
 Story
 
 Ok, Imagine for a second that you are an mechanical engineer plagued with the horror of
