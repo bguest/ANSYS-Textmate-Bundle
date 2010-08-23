@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>name</key>
-	<string>ANSYS</string>
-	<key>ordering</key>
-	<array>
-		<string>013531CF-0451-41E4-A570-A9D92793A826</string>
-	</array>
-	<key>uuid</key>
-	<string>94823924-1183-4061-98D1-4300C0C11960</string>
-</dict>
+    <dict>
+        <key>name</key>
+        <string>ANSYS</string>
+        <key>ordering</key>
+        <array>
+            <string>013531CF-0451-41E4-A570-A9D92793A826</string>
+        </array>
+        <key>uuid</key>
+        <string>94823924-1183-4061-98D1-4300C0C11960</string>
+        <key>mainMenu</key>
+        <dict>
+            <key>items</key>
+            <array>
+                <string>9DA5C57D-9FBF-4ACB-8E2A-1F70EF093986</string>
+                <string>EE488481-376E-49D7-B42F-B4CBFB8D4ED0</string>
+                <string>04237180-B994-4C3C-9863-2CB5FA85F287</string>
+            </array>
+        </dict>
+    </dict>
 </plist>
