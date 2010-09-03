@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>CLOCAL</string>
+        <key>uuid</key>
+        <string>17AF9A3A-DCC8-403C-90C6-3AE60B2B336A</string>
+        <key>content</key>
+        <string>clocal,${1:New_CS_Number},${2:KCS},${3:XL},${4:YL},${5:ZL},${6:THXY}, ${7:THYZ},${8:THZX},${9:PAR1},${10:PAR2}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>cloc</string>
+    </dict>
+</plist>

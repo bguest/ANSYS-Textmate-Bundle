@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>ASBA</string>
+        <key>uuid</key>
+        <string>D2132DEA-D3FD-49AB-B2F4-ECE9C6067CB4</string>
+        <key>content</key>
+        <string>asba,${1:NA1},${2:NA2},${3:SEPO},${4:KEEP1},${5:KEEP2}
+${6:!NA1: Area to be subtracted from
+!NA2: Area to be subtracted
+!SEPO: (blank) --&gt; Resulting areas share lines where they touch
+!        SEPO  --&gt; The resulting areas have seperate lines
+!KEEP1, KEEP2: Specifies whether NA1, NA2 areas are to be deleted: 
+! (blank) -—&gt;  Use the setting of KEEP on the BOPTN command.
+! DELETE  -—&gt;  Delete NA1 areas after ASBA operation (override BOPTN command settings).
+!   KEEP  -—&gt;  Keep NA1 areas after ASBA operation (override BOPTN command settings).}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>asba</string>
+    </dict>
+</plist>
