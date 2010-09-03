@@ -14,10 +14,26 @@
         <dict>
             <key>items</key>
             <array>
+                <string>D61169F4-F551-424A-9CAF-6126BF0DE101</string>
+                <string>------------------------------------</string>
                 <string>9DA5C57D-9FBF-4ACB-8E2A-1F70EF093986</string>
                 <string>EE488481-376E-49D7-B42F-B4CBFB8D4ED0</string>
                 <string>04237180-B994-4C3C-9863-2CB5FA85F287</string>
+                <string>3CAB8151-930C-4B21-9F48-6CDC73D7B5FD</string>
             </array>
+            <key>submenus</key>
+            <dict>
+                <key>3CAB8151-930C-4B21-9F48-6CDC73D7B5FD</key>
+                <dict>
+                    <key>items</key>
+                    <array>
+                        <string>D2132DEA-D3FD-49AB-B2F4-ECE9C6067CB4</string>
+                        <string>17AF9A3A-DCC8-403C-90C6-3AE60B2B336A</string>
+                    </array>
+                    <key>name</key>
+                    <string>APDL</string>
+                </dict>
+            </dict>
         </dict>
     </dict>
 </plist>
