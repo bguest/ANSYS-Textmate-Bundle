@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>list2sel</string>
+        <key>uuid</key>
+        <string>D61169F4-F551-424A-9CAF-6126BF0DE101</string>
+        <key>input</key>
+        <string>selection</string>
+        <key>output</key>
+        <string>replaceSelectedText</string>
+        <key>command</key>
+        <string>#!/usr/bin/env ruby
+
+# DESCRIPITON: This command converts the output &lt;k,l,a,v&gt;list command into
+# into a &lt;k,l,a,v&gt;sel command. It works with simple lists as well 
+# EXAMPLE:
+# AREA
+# 10
+# 11
+# 12
+# 44
+# Becomes: asel,s,,,10,12 $ asel,a,,,44
+
+class Converter
+	attr_accessor :data, :letter
+	
+	def initialize(data, letter = "")
+		@data = ''						#Initially set to empty set (added when processed)
+		new_data = data.to_s.chomp
+		@letter = letter.to_s.chomp
+		
+		@selections = Array.new
+		@numbers = Array.new
+		
+		@last_number = -99
+		@current_selection = nil
+						
+		self.process_data(new_data)
+	end
+	
+	# This method takes data and processes it into 
+	def process_data(data)
+				
+		#if no leter given, try to find it
+		if @letter == ""
+			matches = data.downcase.match('(keypoint|line|volume|area)')
+			@letter = (matches ? matches[0].match('(k|l|v|a)')[0].downcase : 'x')
+		end
+
+		data.each_line do |line|
+			@data &lt;&lt; line.chomp
+			@data &lt;&lt; "\r"
+			number = line[0,7].to_i
+			if (number &gt; 0)				 #Check to see that number is vailid
+				@numbers &lt;&lt; number
+			end
+		end
+		
+		
+		self.numbers_to_sels
+		
+		return @data
+	end
+	
+	# Method takes array of numbers and creates an array of selections
+	def numbers_to_sels
+		
+		@numbers.sort!       #Sort Numbers
+		
+		last_number = -99
+		current_selection = nil
+		
+		@numbers.each do |number|
+			if number &lt;= last_number + 1			#if number is just one plus the last_number
+				current_selection.end = number 	# don't create a new number
+			else
+				if current_selection != nil				#Add last selection to @selections
+					@selections &lt;&lt; current_selection
+				end
+				current_selection = Selection.new(@letter)	 #Create new selection with
+				current_selection.start = number						 #number
+			end
+			last_number = number
+		end
+		if current_selection
+			@selections &lt;&lt; current_selection
+		end
+	end
+	
+	#Converts the array of selections and outputs it as string of
+	#   _sel commands
+	def to_s 
+		output = ""
+		@selections.each_with_index do | selection,index |	
+			output &lt;&lt;  ( index == 0 ? selection.to_s(true) : selection.to_s )
+			output &lt;&lt;  ( index % 5 ? " $ " : "\r" )
+		end 
+		return output 
+	end
+	
+end
+
+class Selection
+	attr_accessor :start, :end, :letter
+	
+	def initialize(letter = '_')
+		@letter = letter
+	end
+	
+	# Returns String Version
+	def to_s (first_line = false)
+		
+		selection = first_line ? 's' : 'a'
+		
+		if @end == nil 
+			"#{@letter}sel,#{selection},,,#{@start}"
+		else
+			"#{@letter}sel,#{selection},,,#{@start},#{@end}"
+		end
+	end
+end
+
+converter = Converter.new(ENV['TM_SELECTED_TEXT'])
+print converter.to_s</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>keyEquivalent</key>
+        <string>@^s</string>
+    </dict>
+</plist>
