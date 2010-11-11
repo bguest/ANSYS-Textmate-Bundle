@@ -14,11 +14,13 @@
         <dict>
             <key>items</key>
             <array>
+                <string>2B821664-9AF2-429C-BE8F-133A35E49CBD</string>
                 <string>D61169F4-F551-424A-9CAF-6126BF0DE101</string>
                 <string>------------------------------------</string>
                 <string>9DA5C57D-9FBF-4ACB-8E2A-1F70EF093986</string>
                 <string>EE488481-376E-49D7-B42F-B4CBFB8D4ED0</string>
                 <string>04237180-B994-4C3C-9863-2CB5FA85F287</string>
+                <string>7B02F4C5-61D4-41C7-94D6-4C4EDE195873</string>
                 <string>3CAB8151-930C-4B21-9F48-6CDC73D7B5FD</string>
             </array>
             <key>submenus</key>
@@ -29,6 +31,13 @@
                     <array>
                         <string>D2132DEA-D3FD-49AB-B2F4-ECE9C6067CB4</string>
                         <string>17AF9A3A-DCC8-403C-90C6-3AE60B2B336A</string>
+                        <string>BC145C6D-C869-428A-9183-A17030494380</string>
+                        <string>1E8D1FF3-D666-4F88-AF64-0C814C897876</string>
+                        <string>754CEEA6-9BBA-452E-B5ED-35B1702CA327</string>
+                        <string>0E7504F1-8B0E-4C16-AB74-74B1BD705551</string>
+                        <string>E181855F-3C15-41AE-9CDE-EB1F62656D93</string>
+                        <string>0E5C91BC-2550-483F-AC7B-E2A17689B882</string>
+                        <string>C13DDA3E-EA03-4EF0-80F7-C4D4277A9A3A</string>
                     </array>
                     <key>name</key>
                     <string>APDL</string>
