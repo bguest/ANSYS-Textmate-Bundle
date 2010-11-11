@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>D</string>
+        <key>uuid</key>
+        <string>4222D328-CE3D-46CE-9063-C75B723A63CD</string>
+        <key>tabTrigger</key>
+        <string>d</string>
+        <key>content</key>
+        <string>d,${1:NODE},${2:Lab},${3:VALUE},${4:VALUE2},${5:NEND},${6:NINC},${7:Lab2},${8:Lab3},${9:Lab4},${10:Lab5},${11:Lab6}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+    </dict>
+</plist>

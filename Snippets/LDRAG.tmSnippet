@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>LDRAG</string>
+        <key>uuid</key>
+        <string>0E5C91BC-2550-483F-AC7B-E2A17689B882</string>
+        <key>tabTrigger</key>
+        <string>ldra</string>
+        <key>content</key>
+        <string>ldrag,${1:NK1},${2:NK2},${3:NK3},${4:NK4},${5:NK5},${6:NK6},${7:NL1},${8:NL2},${9:NL3},${10:NL4},${11:NL5},${12:NL6}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+    </dict>
+</plist>

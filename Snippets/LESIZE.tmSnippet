@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>LESIZE</string>
+        <key>uuid</key>
+        <string>C13DDA3E-EA03-4EF0-80F7-C4D4277A9A3A</string>
+        <key>tabTrigger</key>
+        <string>lesi</string>
+        <key>content</key>
+        <string>lesize,${1:NL1},${2:SIZE},${3:ANGSIZ},${4:NDIV},${5:SPACE},${6:KFORC},${7:LAYER1},${8:LAYER2},${9:KYNDIV}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+    </dict>
+</plist>

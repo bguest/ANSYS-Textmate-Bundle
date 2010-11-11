@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>LbfToLbm</string>
+        <key>uuid</key>
+        <string>2B821664-9AF2-429C-BE8F-133A35E49CBD</string>
+        <key>input</key>
+        <string>selection</string>
+        <key>output</key>
+        <string>showAsTooltip</string>
+        <key>command</key>
+        <string>#!/usr/bin/env ruby
+
+selections = ENV['TM_SELECTED_TEXT'].split
+
+totalValue = 0
+selections.each do |line|
+	totalValue += line.to_f
+end
+
+totalValue = totalValue*386.09
+print totalValue.to_s
+</string>
+        <key>keyEquivalent</key>
+        <string>@M</string>
+        <key>scope</key>
+        <string></string>
+    </dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>_latt</string>
+        <key>uuid</key>
+        <string>A9CB1F20-CD21-476F-93D3-AE0EAB82D091</string>
+        <key>tabTrigger</key>
+        <string>LATT</string>
+        <key>content</key>
+        <string>latt,${1:MAT},${1:REAL},${1:TYPE},,${2:KB},${3:KE},${4:SECNUM}
+${0:!KB --&gt; Begining Keypoint Orientation
+!KE --&gt; End Keypoint Orientation}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+    </dict>
+</plist>

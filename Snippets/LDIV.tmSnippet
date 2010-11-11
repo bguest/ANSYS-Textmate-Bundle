@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>LDIV</string>
+        <key>uuid</key>
+        <string>E181855F-3C15-41AE-9CDE-EB1F62656D93</string>
+        <key>content</key>
+        <string>ldiv,${1:NL1},${2:RATIO},${3:PDIV},${4:NDIV},${5:KEEP}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>ldiv</string>
+    </dict>
+</plist>

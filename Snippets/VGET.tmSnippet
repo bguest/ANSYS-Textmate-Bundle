@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>*VGET</string>
+        <key>uuid</key>
+        <string>6E97A734-31DC-4184-83D7-7D164AA7E9C2</string>
+        <key>content</key>
+        <string>*vget,${1:ParR},${2:Entity},${3:ENTNUM},${4:Item1},${5:IT1NUM},${6:Item2},${7:IT2NUM},${8:KLOOP}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>*vge</string>
+    </dict>
+</plist>

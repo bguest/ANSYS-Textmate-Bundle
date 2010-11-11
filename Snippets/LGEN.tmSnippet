@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>LGEN</string>
+        <key>uuid</key>
+        <string>DB066D36-3F22-479B-B925-5C4A805A61F6</string>
+        <key>tabTrigger</key>
+        <string>lgen</string>
+        <key>content</key>
+        <string>lgen,${1:ITIME},${2:NP1},${3:NP2},${4:NINC},${5:DX},${6:DY},${7:DZ},${8:KINC},${9:NOELEM},${10:IMOVE}
+${0:!IMOVE: 0 --&gt; Generate new keypoints, 1 --&gt; Move keypoints}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+    </dict>
+</plist>

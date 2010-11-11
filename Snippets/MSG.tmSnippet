@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>*MSG</string>
+        <key>uuid</key>
+        <string>81BC6DBE-7D14-4254-B7BF-143EEB11241A</string>
+        <key>content</key>
+        <string>*msg,${1:info/note/warn/error/ui},${2:VAL1},${3:VAL2},${4:VAL3},${5:VAL4},${6:VAL5},${7:VAL6},${8:VAL7},${9:VAL8}
+	${0:Message Here}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>*msg</string>
+    </dict>
+</plist>

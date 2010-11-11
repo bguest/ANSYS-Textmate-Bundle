@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>DK</string>
+        <key>uuid</key>
+        <string>754CEEA6-9BBA-452E-B5ED-35B1702CA327</string>
+        <key>content</key>
+        <string>dk,${1:KPOI},${2:Lab},${3:VALUE},${4:VALUE2},${5:KEXPND},${6:Lab2},${7:Lab3},${8:Lab4},${9:Lab5},${10:Lab6}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>dk</string>
+    </dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>CSKP</string>
+        <key>uuid</key>
+        <string>1E8D1FF3-D666-4F88-AF64-0C814C897876</string>
+        <key>tabTrigger</key>
+        <string>cskp</string>
+        <key>content</key>
+        <string>cskp,${1:New_CS_Number},${2:KCS},${3:PORIG},${4:PXAXS},${5:PXYPL},${6:PAR1},${7:PAR2}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+    </dict>
+</plist>
