@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>MAT_AL7075</string>
+        <key>uuid</key>
+        <string>08E70A61-6620-46F6-9343-244B47B3704C</string>
+        <key>tabTrigger</key>
+        <string>mat_al</string>
+        <key>content</key>
+        <string>!--------Material Definition: Aluminum 7075-T73--------
+!REF: MIL-HDBK-5E
+MP,EX,${1:MatNum},10.3e6        
+MP,PRXY,${1:MatNum},0.33
+MP,DENS,${1:MatNum},0.1/Gravity
+MP,ALPX,${1:MatNum},12.4E-6
+${2:
+!----FAILURE CRITERIA (YEILD STRENGTHS)
+FC,${1:MatNum},S,XTEN,56e3 !Tensile stress, X-direction
+FC,${1:MatNum},S,YTEN,56e3 !Tensile stress, y-direction
+FC,${1:MatNum},S,ZTEN,56e3 !Tensile stress, Z-direction 
+FC,${1:MatNum},S,XY  ,38e3 !XY shear stress(Ultimate Strength)
+FC,${1:MatNum},S,YZ  ,38e3 !YZ shear stress(Ultimate Strength)
+FC,${1:MatNum},S,XZ  ,38e3 !XZ shear stress(Ultimate Strength)}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+    </dict>
+</plist>

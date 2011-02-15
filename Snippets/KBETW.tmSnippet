@@ -3,15 +3,14 @@
 <plist version="1.0">
     <dict>
         <key>name</key>
-        <string>NUMSTR</string>
+        <string>KBETW</string>
         <key>uuid</key>
-        <string>F69D9387-3421-4DDD-B77C-BEF9216268A8</string>
+        <string>4B6D7333-2F4C-4CBD-A5A7-A10028DA42C1</string>
         <key>content</key>
-        <string>numstr,${1:Label},${2:VALUE}
-${0:!Label-&gt; NODE, ELEM, KP, LINE, AREA, VOLU, DEFA}</string>
+        <string>KBETW,${1:KP1},${2:KP2},${3:KPNEW},${4:RATIO/DIST},${5:VALUE}</string>
         <key>scope</key>
         <string>source.apdl</string>
         <key>tabTrigger</key>
-        <string>nums</string>
+        <string>kbet</string>
     </dict>
 </plist>

@@ -22,6 +22,7 @@
                 <string>04237180-B994-4C3C-9863-2CB5FA85F287</string>
                 <string>7B02F4C5-61D4-41C7-94D6-4C4EDE195873</string>
                 <string>3CAB8151-930C-4B21-9F48-6CDC73D7B5FD</string>
+                <string>EE0ABBF3-96B5-4730-ACDD-24B1EDB30AFC</string>
             </array>
             <key>submenus</key>
             <dict>
@@ -29,18 +30,34 @@
                 <dict>
                     <key>items</key>
                     <array>
+                        <string>FB550C95-8ECF-4304-9011-30198152D4CA</string>
+                        <string>81BC6DBE-7D14-4254-B7BF-143EEB11241A</string>
+                        <string>6E97A734-31DC-4184-83D7-7D164AA7E9C2</string>
                         <string>D2132DEA-D3FD-49AB-B2F4-ECE9C6067CB4</string>
                         <string>17AF9A3A-DCC8-403C-90C6-3AE60B2B336A</string>
                         <string>BC145C6D-C869-428A-9183-A17030494380</string>
                         <string>1E8D1FF3-D666-4F88-AF64-0C814C897876</string>
+                        <string>4222D328-CE3D-46CE-9063-C75B723A63CD</string>
                         <string>754CEEA6-9BBA-452E-B5ED-35B1702CA327</string>
+                        <string>CD767729-0D45-42E2-B46A-F51DE3FACE2A</string>
                         <string>0E7504F1-8B0E-4C16-AB74-74B1BD705551</string>
                         <string>E181855F-3C15-41AE-9CDE-EB1F62656D93</string>
                         <string>0E5C91BC-2550-483F-AC7B-E2A17689B882</string>
                         <string>C13DDA3E-EA03-4EF0-80F7-C4D4277A9A3A</string>
+                        <string>DB066D36-3F22-479B-B925-5C4A805A61F6</string>
+                        <string>F69D9387-3421-4DDD-B77C-BEF9216268A8</string>
                     </array>
                     <key>name</key>
                     <string>APDL</string>
+                </dict>
+                <key>EE0ABBF3-96B5-4730-ACDD-24B1EDB30AFC</key>
+                <dict>
+                    <key>items</key>
+                    <array>
+                        <string>08E70A61-6620-46F6-9343-244B47B3704C</string>
+                    </array>
+                    <key>name</key>
+                    <string>Materials</string>
                 </dict>
             </dict>
         </dict>
