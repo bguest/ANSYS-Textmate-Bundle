@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>MAT_SS15-5PH</string>
+        <key>uuid</key>
+        <string>CD45F51A-951E-4077-AD9C-77965F8970F2</string>
+        <key>content</key>
+        <string>!--Material Definition: STAINLESS_STEEL_15-5PH(H1025)--
+!REF:MIL-HDBK-5E,PRO_E
+MP,EX,${1:MatNum},28.5e6
+MP,PRXY,${1:MatNum},0.27
+MP,DENS,${1:MatNum},0.283/G
+MP,ALPX,${1:MatNum},6.3e-6</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>mat_ss155</string>
+    </dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>TheEnd</string>
+        <key>uuid</key>
+        <string>95B3289A-E838-46E4-9EBC-95717C090729</string>
+        <key>tabTrigger</key>
+        <string>theend</string>
+        <key>content</key>
+        <string>!======THE--END========THE--END========THE--END========
+!ITS THE END OF THE FILE AS WE KNOW IT, AND I FEEL FINE</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+    </dict>
+</plist>

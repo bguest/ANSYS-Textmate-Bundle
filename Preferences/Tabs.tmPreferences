@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Tabs</string>
+        <key>uuid</key>
+        <string>04503232-BF1E-4C29-BD64-0AFBB4ECF611</string>
+        <key>settings</key>
+        <dict>
+            <key>shellVariables</key>
+            <array>
+                <dict>
+                    <key>name</key>
+                    <string>TM_SOFT_TABS</string>
+                    <key>value</key>
+                    <string>YES</string>
+                </dict>
+                <dict>
+                    <key>name</key>
+                    <string>TM_TAB_SIZE </string>
+                    <key>value</key>
+                    <string>3</string>
+                </dict>
+            </array>
+        </dict>
+        <key>scope</key>
+        <string></string>
+    </dict>
+</plist>
