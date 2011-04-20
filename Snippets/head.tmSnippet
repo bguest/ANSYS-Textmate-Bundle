@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>head</string>
+        <key>uuid</key>
+        <string>DC61A420-41A4-4DDB-BF9B-30FA9B4468A8</string>
+        <key>tabTrigger</key>
+        <string></string>
+        <key>content</key>
+        <string>Syntax Summary:
+
+   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
+   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
+   Substitutions    ${TM_FILENAME/.*/\U$0/}
+
+   Tab Stops        $1, $2, $3, ... $0 (optional)
+   Placeholders     ${1:default value}
+   Mirrors          &lt;${2:tag}&gt;...&lt;/$2&gt;
+   Transformations  &lt;${3:tag}&gt;...&lt;/${3/(\w*).*/\U$1/}&gt;
+   Pipes            ${1:ruby code|ruby -e "print eval STDIN.read"}
+
+   Shell Code       `date`, `pwd`
+
+   Escape Codes     \$ \` \\</string>
+    </dict>
+</plist>

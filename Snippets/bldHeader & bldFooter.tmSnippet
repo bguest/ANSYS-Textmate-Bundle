@@ -3,14 +3,16 @@
 <plist version="1.0">
     <dict>
         <key>name</key>
-        <string>_aatt</string>
+        <string>bldHeader &amp; bldFooter</string>
         <key>uuid</key>
-        <string>54708668-D8DE-4792-8859-624418209610</string>
-        <key>tabTrigger</key>
-        <string>AATT</string>
+        <string>3A68CD14-25D2-4BB2-AD0C-28F8DCF8891C</string>
         <key>content</key>
-        <string>aatt,${1:MAT},${1:REAL},${1:TYPE},${2:ESYS},${1:SECN}</string>
+        <string>bldHeader,'$1'
+${TM_SELECTEDTEXT:$TM_CURRENT_WORD}
+bldFooter,'$1'</string>
         <key>scope</key>
         <string>source.apdl</string>
+        <key>keyEquivalent</key>
+        <string>@H</string>
     </dict>
 </plist>

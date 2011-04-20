@@ -3,13 +3,14 @@
 <plist version="1.0">
     <dict>
         <key>name</key>
-        <string>_aatt</string>
+        <string>- Line Break</string>
         <key>uuid</key>
-        <string>54708668-D8DE-4792-8859-624418209610</string>
+        <string>FD29881A-068E-4D33-BF9A-E75A0019A75B</string>
         <key>tabTrigger</key>
-        <string>AATT</string>
+        <string>!-</string>
         <key>content</key>
-        <string>aatt,${1:MAT},${1:REAL},${1:TYPE},${2:ESYS},${1:SECN}</string>
+        <string>!------------------------------------------------------
+</string>
         <key>scope</key>
         <string>source.apdl</string>
     </dict>

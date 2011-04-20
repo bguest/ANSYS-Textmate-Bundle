@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>DeGUI</string>
+        <key>uuid</key>
+        <string>AC517A56-2AA1-4935-8C48-2DC1761B93F2</string>
+        <key>input</key>
+        <string>selection</string>
+        <key>output</key>
+        <string>replaceSelectedText</string>
+        <key>command</key>
+        <string>#!/usr/bin/env ruby
+
+#-------------------------------------------------------------------
+#B.GUEST - BenGuest@gmail.com
+#DESCRIPTION:
+#	removing irrelavant view commands from selection
+#-------------------------------------------------------------------
+
+#View 
+ignore_commands = ['','/ANG','/DIS','/FOC','/GRA',',/GRO','/GST','/LIG',
+                   '/PLO','/REP','/USE','/VIE','ALIS','ELIS','KLIS','LLIS',
+                   'NPLO','APLO','EPLO','GPLO','KPLO','LPLO','NPLO','UNDO']
+                  
+#Post Processing 
+ignore_commands &lt;&lt; ['/ESH','/POS','/REP','/TIT','PLES','PLNS','PRES','PRNS',
+                    'SET']
+                       
+#Custome Macros
+ignore_commands &lt;&lt; ['_DISP','VM']
+
+#-------------------------------------------------------------------
+
+lines = ENV['TM_SELECTED_TEXT'].to_s.chomp
+out_data = ''
+
+lines.each_line do |line|
+	commands = line.split(',')
+	command = commands[0].upcase
+	if command.length &gt;= 4:        #Get only first 4 characters of command
+		command = command[0,4]
+	end
+   if !(ignore_commands.include?(command))
+		out_data &lt;&lt; line
+	end
+end
+
+puts out_data
+
+#-------------------------------------------------------------------
+
+</string>
+        <key>scope</key>
+        <string></string>
+        <key>keyEquivalent</key>
+        <string>@L</string>
+    </dict>
+</plist>

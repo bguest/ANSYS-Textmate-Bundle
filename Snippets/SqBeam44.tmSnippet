@@ -3,13 +3,14 @@
 <plist version="1.0">
     <dict>
         <key>name</key>
-        <string>_aatt</string>
+        <string>SqBeam44</string>
         <key>uuid</key>
-        <string>54708668-D8DE-4792-8859-624418209610</string>
+        <string>E59FFF64-8790-45DD-91E1-F370DE4995FC</string>
         <key>tabTrigger</key>
-        <string>AATT</string>
+        <string>sqbe</string>
         <key>content</key>
-        <string>aatt,${1:MAT},${1:REAL},${1:TYPE},${2:ESYS},${1:SECN}</string>
+        <string>SqBeam44,${1:MatNum},${2:TKY},${3:TKZ},,${4:Material}
+${0:!Material --&gt; See _MAT.mac}</string>
         <key>scope</key>
         <string>source.apdl</string>
     </dict>
