@@ -9,6 +9,8 @@
         <key>content</key>
         <string>dl,${1:LINE},${2:AREA},${3:Lab},${4:Value1},${5:Value2}</string>
         <key>scope</key>
-        <string></string>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>dl</string>
     </dict>
 </plist>
