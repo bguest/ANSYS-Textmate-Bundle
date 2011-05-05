@@ -45,15 +45,15 @@ class Converter
 				
 		#if no leter given, try to find it
 		if @letter == ""
-			matches = data.downcase.match('(keypoint|line|volume|area)')
-			@letter = (matches ? matches[0].match('(k|l|v|a)')[0].downcase : 'x')
+			matches = data.downcase.match('(keypoint|line|volume|area|elem(ent)?|node)')
+			@letter = (matches ? matches[0].match('(k|l|v|a|e|n)')[0].downcase : 'x')
 		end
 
 		data.each_line do |line|
 			@data &lt;&lt; line.chomp
 			@data &lt;&lt; "\r"
-			number = line[0,7].to_i
-			if (number &gt; 0)				 #Check to see that number is vailid
+			number = line[0,8].to_i
+			if (number &gt; 0) &amp;&amp; !(line.index(/[A-DF-Za-df-z]/))		#Check to see that number is vailid
 				@numbers &lt;&lt; number
 			end
 		end

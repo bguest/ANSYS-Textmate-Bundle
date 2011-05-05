@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>_SHELL63</string>
+        <key>uuid</key>
+        <string>A4A7F4DB-FD45-4011-8945-7CB06E4A703D</string>
+        <key>tabTrigger</key>
+        <string>_shell63</string>
+        <key>content</key>
+        <string>_shell63,${1:MatNum},${2:Thickness},${3:Material}
+${0:!Material (See _MAT.mac)}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+    </dict>
+</plist>

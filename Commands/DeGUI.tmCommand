@@ -37,13 +37,15 @@ lines = ENV['TM_SELECTED_TEXT'].to_s.chomp
 out_data = ''
 
 lines.each_line do |line|
-	commands = line.split(',')
-	command = commands[0].upcase
-	if command.length &gt;= 4:        #Get only first 4 characters of command
-		command = command[0,4]
-	end
-   if !(ignore_commands.include?(command))
-		out_data &lt;&lt; line
+	unless line.empty?
+		commands = line.split(',')
+		command = commands[0].upcase
+		if command.length &gt;= 4:        #Get only first 4 characters of command
+			command = command[0,4]
+		end
+	   if !(ignore_commands.include?(command))
+			out_data &lt;&lt; line
+		end
 	end
 end
 
