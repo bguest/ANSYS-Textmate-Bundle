@@ -8,7 +8,7 @@
         <string>3A68CD14-25D2-4BB2-AD0C-28F8DCF8891C</string>
         <key>content</key>
         <string>bldHeader,'$1'
-${TM_SELECTEDTEXT:$TM_CURRENT_WORD}
+${TM_SELECTEDTEXT:$TM_CURRENT_WORD}$0
 bldFooter,'$1'</string>
         <key>scope</key>
         <string>source.apdl</string>
