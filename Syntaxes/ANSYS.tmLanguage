@@ -35,7 +35,7 @@
                 <key>name</key>
                 <string>comment.line.character.apdl</string>
                 <key>match</key>
-                <string>(!|^[ 	]*(?i)(/com)[ 	]*,).*$\n?</string>
+                <string>(!|(^[ 	]*(?i)(/com)[ 	]*,)|[Cc]\*\*\*).*$\n?</string>
             </dict>
             <dict>
                 <key>include</key>

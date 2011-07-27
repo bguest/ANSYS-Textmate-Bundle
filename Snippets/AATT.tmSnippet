@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>AATT</string>
+        <key>uuid</key>
+        <string>97D241F6-A2C0-4514-A7D1-CD7E74AEB4E1</string>
+        <key>content</key>
+        <string>aatt,${1:MAT},${2:REAL},${3:TYPE},${4:ESYS},${5:SECN}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>aatt</string>
+    </dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>CMADD</string>
+        <key>uuid</key>
+        <string>EF5DDE44-31C3-490B-8CDF-B2A10FB252BA</string>
+        <key>content</key>
+        <string>cmadd,'${1:volu\|area\|line\|kp\|elem\|node}','${2:cm_name}',${3:first},${4:last},${5:increment}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>cmadd</string>
+    </dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>ADELE</string>
+        <key>uuid</key>
+        <string>40A9F173-C91A-4AB6-8677-D4800F1F41B4</string>
+        <key>content</key>
+        <string>adele,${1:NA1},${2:NA2},${3:NINC},${4:KSWP}</string>
+        <key>scope</key>
+        <string>source.apdl</string>
+        <key>tabTrigger</key>
+        <string>adel</string>
+    </dict>
+</plist>
