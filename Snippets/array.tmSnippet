@@ -7,7 +7,7 @@
         <key>uuid</key>
         <string>7B02F4C5-61D4-41C7-94D6-4C4EDE195873</string>
         <key>content</key>
-        <string>${1:arrayName} = $ *dim,$1,array,${2:arraySize}</string>
+        <string>${1:arrayName} = \$ *dim,$1,array,${2:arraySize}</string>
         <key>scope</key>
         <string>source.apdl</string>
         <key>tabTrigger</key>
