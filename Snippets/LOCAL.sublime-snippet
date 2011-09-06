@@ -1,0 +1,12 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+   <content><![CDATA[
+      local,${1:New_CS_Number},${2:KCS},${3:XC},${4:YC},${5:ZC},${6:THXY},${7:THYZ},${8:THZX},${9:PAR1},${10:PAR2}
+   ]]></content>
+   <!-- Optional: Tab trigger to activate the snippet -->
+   <tabTrigger>loca</tabTrigger>
+   <!-- Optional: Scope the tab trigger will be active in -->
+   <scope>source.apdl</scope>
+   <!-- Optional: Description to show in the menu --> 
+   <description>LOCAL</description>
+</snippet>

@@ -1,0 +1,10 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+   <content><![CDATA[vdrag,${1:NA1},${2:NA2},${3:NA3},${4:NA4},${5:NA5},${6:NA6},${7:NLP1},${8:NLP2},${9:NLP3},${10:NLP4},${11:NLP5},${12:NLP6}]]></content>
+   <!-- Optional: Tab trigger to activate the snippet -->
+   <tabTrigger>vdra</tabTrigger>
+   <!-- Optional: Scope the tab trigger will be active in -->
+   <scope>source.apdl</scope>
+   <!-- Optional: Description to show in the menu --> 
+   <description>VDRAG</description>
+</snippet>
