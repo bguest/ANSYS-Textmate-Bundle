@@ -14,5 +14,7 @@ bldFooter,'$1'</string>
         <string>source.apdl</string>
         <key>keyEquivalent</key>
         <string>@H</string>
+        <key>tabTrigger</key>
+        <string>bldh</string>
     </dict>
 </plist>
