@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+_Beam44,${1:MatNum},${2:Area},${3:IXX},${4:IYY},${5:IZZ},${6:Material}
+! Material --> See _MAT.mac
+]]></content>
+	<tabTrigger>_beam44</tabTrigger>
+	<scope>source.apdl</scope>
+</snippet>

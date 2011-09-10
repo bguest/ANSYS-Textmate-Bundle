@@ -7,10 +7,10 @@
         <key>uuid</key>
         <string>6E97A734-31DC-4184-83D7-7D164AA7E9C2</string>
         <key>content</key>
-        <string>*vget,${1:ParR},${2:Entity},${3:ENTNUM},${4:Item1},${5:IT1NUM},${6:Item2},${7:IT2NUM},${8:KLOOP}</string>
+        <string>${1:ParR} = \$ *VGET,${1:ParR},${2:Entity},${3:ENTNUM},${4:Item1},${5:IT1NUM},${6:Item2},${7:IT2NUM},${8:KLOOP}</string>
         <key>scope</key>
         <string>source.apdl</string>
         <key>tabTrigger</key>
-        <string>*vge</string>
+        <string>*vget</string>
     </dict>
 </plist>

@@ -9,7 +9,7 @@
         <key>tabTrigger</key>
         <string>sqbe</string>
         <key>content</key>
-        <string>SqBeam44,${1:MatNum},${2:TKY},${3:TKZ},,${4:Material}
+        <string>SqBeam44,${1:MatNum},${2:TKY},${3:TKZ},${4:WallThk},${5:Material}
 ${0:!Material --&gt; See _MAT.mac}</string>
         <key>scope</key>
         <string>source.apdl</string>
