@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+fk,${1:KPOI},${2:Lab},${3:VALUE},${4:VALUE2}
+]]></content>
+	<tabTrigger>fk</tabTrigger>
+	<scope>source.apdl</scope>
+</snippet>
