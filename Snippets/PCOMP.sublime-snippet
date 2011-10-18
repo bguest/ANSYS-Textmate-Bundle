@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${5:!numLay = number of layers in the property
+!layThick = Array with the layers thicknesses
+!layAngle = Array with the layer angles IN DEGREESE
+!layMat   = Array with the layer material numbers}
+PCOMP,${1:MatNum},${2:ElementType},${3:AddMass},${4:SandwichOption?}
+]]></content>
+	<tabTrigger>pcomp</tabTrigger>
+	<scope>source.apdl</scope>
+</snippet>

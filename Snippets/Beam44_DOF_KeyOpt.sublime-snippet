@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 !			       XYZXYZ  IE: 010001 Releases TY and RZ
-KEYOPT,MatNum,7,000000 !Stiffness release at node I:
-KEYOPT,MatNum,8,000000 !Stiffness release at node J:
+KEYOPT,${1:MatNum},7,000000 !Stiffness release at node I:
+KEYOPT,${1:MatNum},8,000000 !Stiffness release at node J:
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>beam44dof</tabTrigger>
