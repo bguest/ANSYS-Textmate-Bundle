@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-!			       XYZXYZ  IE: 010001 Releases TY and RZ
+!           XYZXYZ  IE: 010001 Releases TY and RZ
 KEYOPT,${1:MatNum},7,000000 !Stiffness release at node I:
 KEYOPT,${1:MatNum},8,000000 !Stiffness release at node J:
 ]]></content>

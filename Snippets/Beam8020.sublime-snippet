@@ -1,0 +1,9 @@
+<snippet>
+   <content><![CDATA[
+Beam8020,${1:MatNum},'${2:Extrusion #}',${3:810}
+${0:! Valid Extrusion #'s: 1515, 1530, 1545, 3030, 3060
+! 810 --> Default Material}
+]]></content>
+   <tabTrigger>beam8020</tabTrigger>
+   <scope>source.apdl</scope>
+</snippet>

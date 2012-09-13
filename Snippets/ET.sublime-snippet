@@ -1,0 +1,9 @@
+<snippet>
+   <content><![CDATA[
+et,${1:ITYPE},${2:Ename},${3:KOP1},${4:KOP2},${5:KOP3},${6:KOP4},${7:KOP5},${8:KOP6},${9:INOPR}
+]]></content>
+   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+   <tabTrigger>et</tabTrigger>
+   <!-- Optional: Set a scope to limit where the snippet will trigger -->
+   <scope>source.apdl</scope>
+</snippet>

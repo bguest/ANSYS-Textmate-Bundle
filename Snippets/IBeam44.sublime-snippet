@@ -1,0 +1,7 @@
+<snippet>
+   <content><![CDATA[
+IBeam44,${1:MatNum},${2:Width},${3:WebHeight},${4:WebThick},${5:FlangeThick},${6:Material},${7:Radius}
+]]></content>
+   <tabTrigger>ibeam44</tabTrigger>
+   <scope>source.apdl</scope> 
+</snippet>

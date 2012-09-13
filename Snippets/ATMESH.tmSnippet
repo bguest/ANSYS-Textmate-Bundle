@@ -3,14 +3,15 @@
 <plist version="1.0">
     <dict>
         <key>name</key>
-        <string>ATTMESH</string>
+        <string>ATMESH</string>
         <key>uuid</key>
         <string>3DFBF551-4E06-4CE0-BACC-D65300313D5E</string>
         <key>content</key>
-        <string>attmesh,'${1:kp\|line\|area\|volu}',${2:MatProp},${3:Material},${4:first},${5:last},${6:inc},${7:LineOrient}</string>
+        <string>atmesh,'${1:kp\|line\|area\|volu}',${2:MatProp},${3:first},${4:last},${5:inc},${6:LineOrient/ShellSecn}</string>
         <key>scope</key>
         <string>source.apdl</string>
         <key>tabTrigger</key>
-        <string>attmesh</string>
+        <string>atmesh</string>
     </dict>
 </plist>
+
