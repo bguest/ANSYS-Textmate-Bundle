@@ -1,0 +1,7 @@
+<snippet>
+   <content><![CDATA[
+klmpc,${1:kp},${2:line},${3:link?},${4:Lagrange?}
+]]></content>
+   <tabTrigger>klmp</tabTrigger>
+   <scope>source.apdl</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+   <content><![CDATA[
+xyCircle,${1:X-Cord},${2:Y-Cord},${3:Radius}
+]]></content>
+   <tabTrigger>xyci</tabTrigger>
+   <scope>source.apdl</scope>
+</snippet>
